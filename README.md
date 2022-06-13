@@ -4,10 +4,10 @@ todoList
 
 - https://yunij.github.io/todoListReactTs/
 
-## local server
+### local server
 
 - start : npm run dev
 
-## deploy
+### deploy
 
-- npm run deploy
+- deploy : npm run deploy

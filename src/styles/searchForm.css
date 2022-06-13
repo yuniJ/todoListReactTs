@@ -1,0 +1,30 @@
+.todo_fm {
+  padding: 50px 0;
+  background: rgb(249 249 249);
+}
+.todo_fm input {
+  background-color: #fff;
+  width: calc(100% - 162px);
+  height: 42px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid rgb(214 208 208);
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(141, 138, 138);
+}
+.todo_fm .bt_confirm {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background: rgb(13, 187, 106);
+  width: 150px;
+  height: 42px;
+  margin-left: 10px;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}

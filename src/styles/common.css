@@ -1,0 +1,47 @@
+body,
+div,
+section,
+button,
+input,
+a,
+span,
+em,
+ul,
+li {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+a{text-decoration:none;}
+button:focus,
+input:focus,
+a:focus {
+  outline: 0;
+  background: #fff;
+}
+a:visited {
+  color: #000;
+}
+ul,
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+input::placeholder {color: #c0c0c0;}
+
+section,
+.cont {
+  position:relative;
+  overflow: hidden;
+}
+.cont {
+  width: 80%;
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

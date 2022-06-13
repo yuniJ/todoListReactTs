@@ -1,0 +1,16 @@
+
+.title {
+  width: 100%;
+  display: inline-table;
+  vertical-align: middle;
+  background: rgb(13, 187, 106);
+  text-align: center;
+  height: 100px;
+}
+.title a {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}

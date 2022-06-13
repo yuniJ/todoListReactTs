@@ -15,11 +15,12 @@ function TodoList(props:any) {
   // const todoData = loadItems();
 
   const filterByCategory = () => {
-    // console.log(props.data);
+    console.log(props.data);
     
     // if(!props.data[0]){
     //   return props.data;
     // }
+
     if (props.category === "today") {
       return props.data.filter((list: { completed: any; }) => !list.completed);
     } else if (props.category === "done") {
@@ -50,18 +51,20 @@ function TodoList(props:any) {
           {listGroup.map((list: { completed: boolean; id: Key | null | undefined; title: string; time: string; }) => (
             <li className={list.completed ? "complete" : ""} key={list.id}>
               <span className="txt">{list.title}</span>
-              <button
-                className="bt_complete"
-                onClick={() =>clickTodoItem(list.id, props.serviceTodo.checkItem)}
-              >
-                확인
-              </button>
-              <button
-                className="bt_del"
-                onClick={() =>clickTodoItem(list.id, props.serviceTodo.deleteItem)}
-              >
-                삭제
-              </button>
+              <div className="btn-box">
+                <button
+                  className="bt_complete"
+                  onClick={() =>clickTodoItem(list.id, props.serviceTodo.checkItem)}
+                >
+                  확인
+                </button>
+                <button
+                  className="bt_del"
+                  onClick={() =>clickTodoItem(list.id, props.serviceTodo.deleteItem)}
+                >
+                  삭제
+                </button>
+              </div>
               <span className="time">{list.time}</span>
             </li>
           ))}

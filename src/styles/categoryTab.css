@@ -22,7 +22,7 @@
 }
 .tab li {
   float: left;
-  min-width: 80px;
+  min-width: 60px;
   text-align: center;
   /* background: rgb(249 249 249); */
   border-radius: 3px 3px 0 0;

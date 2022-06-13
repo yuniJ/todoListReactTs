@@ -68,7 +68,7 @@ export function App() {
 
             <Routes>
               <Route
-                path="/"
+                path="/todoListReactTs"
                 element={
                   <TodoList
                     category="all"
@@ -79,7 +79,7 @@ export function App() {
                 }
               ></Route>
               <Route
-                path="/all"
+                path="/todoListReactTs/all"
                 element={
                   <TodoList
                     category={"all"}
@@ -90,7 +90,7 @@ export function App() {
                 }
               ></Route>
               <Route
-                path="/today"
+                path="/todoListReactTs/today"
                 element={
                   <TodoList
                     category={"today"}
@@ -101,7 +101,7 @@ export function App() {
                 }
               ></Route>
               <Route
-                path="/done"
+                path="/todoListReactTs/done"
                 element={
                   <TodoList
                     category={"done"}

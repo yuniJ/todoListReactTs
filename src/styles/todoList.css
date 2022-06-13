@@ -36,6 +36,7 @@
   background: rgb(186, 187, 186);
   border: 1px solid rgb(146, 146, 146);
 }
+.btn-box{display:inline-block;vertical-align:middle;}
 .tab_cnt .bt_complete {
   background: rgb(143 241 187);
   border: 1px solid rgb(130 211 167);
@@ -52,4 +53,15 @@
   transform: translate(0, -50%);
   font-size: 14px;
   color: rgb(141, 138, 138);
+}
+
+@media (max-width: 720px) { 
+  .time{display:none;} 
+  .btn-box{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
 }

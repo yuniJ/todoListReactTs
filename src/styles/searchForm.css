@@ -4,7 +4,7 @@
 }
 .todo_fm input {
   background-color: #fff;
-  width: calc(100% - 162px);
+  width: calc(100% - 30%);
   height: 42px;
   display: inline-block;
   vertical-align: middle;
@@ -19,7 +19,8 @@
   vertical-align: middle;
   text-align: center;
   background: rgb(13, 187, 106);
-  width: 150px;
+  width:calc(30% - 10px);
+  max-width: 150px;
   height: 42px;
   margin-left: 10px;
   color: #fff;

@@ -17,7 +17,7 @@ function CategoryTab(props:any) {
   function categoryTabName() {
     const locationHref = window.location.pathname;
     const tab = locationHref.split("/").pop();
-    // console.log(tab);
+    console.log(tab);
     
     if (tab === "" || tab === "all") {
       return props.category;
@@ -34,17 +34,17 @@ function CategoryTab(props:any) {
         <form name="tabBtn">
           <ul>
             <li className={tabName === "all" ? "on" : ""}>
-              <Link to="/all" onClick={clickCategory}>
+              <Link to="/todoListReactTs/all" onClick={clickCategory}>
                 all
               </Link>
             </li>
             <li className={tabName === "today" ? "on" : ""}>
-              <Link to="/today" onClick={clickCategory}>
+              <Link to="/todoListReactTs/today" onClick={clickCategory}>
                 today
               </Link>
             </li>
             <li className={tabName === "done" ? "on" : ""}>
-              <Link to="/done" onClick={clickCategory}>
+              <Link to="/todoListReactTs/done" onClick={clickCategory}>
                 done
               </Link>
             </li>

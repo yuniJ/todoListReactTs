@@ -3,7 +3,7 @@ import "../styles/header.css";
 function Header() {
   return (
     <header className="title">
-      <a href="/">TODO LIST</a>
+      <a href="/todoListReactTs">TODO LIST</a>
     </header>
   );
 }

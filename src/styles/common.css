@@ -45,3 +45,8 @@ section,
   padding: 0 20px;
   margin: 0 auto;
 }
+
+@media (max-width: 720px) { 
+  .cont {
+    width: 100%;}
+}
